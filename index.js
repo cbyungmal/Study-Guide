@@ -86,3 +86,10 @@ for(var key in person){
 
 
 //Write a loop that will print all multiples of 17 up to 1000
+var sum = 17;
+for(var x = 17; 17 < 1000; x++){
+  if (x === 17){
+    sum += x;
+  }
+}
+console.log(sum);
